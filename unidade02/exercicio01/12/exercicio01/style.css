@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 22px;
+    font-family: serif;
+}
+h1 {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+div {
+    width: 80;
+    margin: 10px auto;
+    padding: 20px;
+}
+.box01 {
+        background-color: darkgray;
+        color: white;
+}
+.box02 {
+        background-color: darkorange;
+        color: white;
+}
+span {
+    font-size: 32px;
+    color: crimson;
+    font-weight: 600;
+}
+img {
+    width: 80px;
+}
+p {
+    margin-top: 30px;
+}
