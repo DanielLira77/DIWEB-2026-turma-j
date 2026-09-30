@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+  font-family: monospace, sans-serif;
+}
+h1 {
+  margin-bottom: 20px;
+}
+form {
+  background-color: white;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 800px;
+}
+input,
+textarea,
+select {
+  margin: 5px 0px;
+  padding: 5px;
+  border: 1px solid coral;
+  color: coral;
+}
+.button {
+  padding: 10px 10px;
+  background-color: coral;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+.obrigatorio {
+  color: red;
+  font-size: 20px;
+  font-weight: 600;
+}
