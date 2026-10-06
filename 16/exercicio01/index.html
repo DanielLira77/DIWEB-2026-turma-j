@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Para trabalhar com tags input type file, precisa dos atributos
+        enctype e/ou acept -->
+    <form method="post" accept="pdf" enctype="multipart/form-data">
+        <h1>Ouvidoria</h1>
+        <!--utilizando input type hidden -->
+        <input type="hidden" name="acao" value="adicionar">
+        
+        <label for="email">Nome</label> 
+        <span class="obrigatorio">*</span> 
+        
+        <input type="text" name="nome" id="nome" size="100" required
+        placeholder="Informe seu nome."> 
+        
+        <label for="email">E-mail</label> 
+        <span class="obrigatorio">*</span>  
+        
+        <input type="text" name="email" id="email" size="100"
+        required placeholder="Informe seu e-mail."> 
+        
+        <label for="tipo">Tipo de solicitação</label> 
+        <span class="obrigatorio">*</span> 
+        
+        <select name="tipo" id="tipo" required>
+            <option value="">Selecione...</option>
+            <option value="reclamacao">Reclamação</option>
+            <option value="elogio">Elogio</option>
+            <option value="sugestao">Sugestão</option>
+        </select> 
+        
+        <label for="mensagem">Mensagem</label> 
+        <span class="obrigatorio">*</span> 
+        
+        <textarea name="mensagem" id="mensagem" rows="5" cols="98" 
+        placeholder="Digite sua mensagem aqui." required></textarea>
+        
+        <label for="anexo">Anexo</label>
+        <span class="obrigatorio">(opcional - Aceita somente arquivos PDF)</span> 
+        <!--utilizando input type file -->
+        <input type="file" name="anexo" id="anexo" accept=".pdf">
+        
+        <br>
+        <input type="submit" value="Enviar" class="button">
+        <input type="reset" value="Limpar" class="button">
+    </form>
+</body>
+</html>
