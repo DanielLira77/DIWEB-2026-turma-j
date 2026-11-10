@@ -1,0 +1,30 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: lightgray;
+}
+a {
+    color: tomato;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 800;
+    padding-right:20px;
+}
+p {
+    font-family: Cambria, serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+h1 {
+    font-size: 40px;
+    color: crimson;
+}
+h2 {
+    font-size: 30px;
+    color: tomato;
+}
+.nav, .content {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}

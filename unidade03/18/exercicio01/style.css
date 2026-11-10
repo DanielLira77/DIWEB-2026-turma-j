@@ -1,0 +1,59 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: lightgray;
+}
+a {
+    color: tomato;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 800;
+    padding-right:20px;
+}
+p {
+    font-family: Cambria, serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+h1 {
+    font-size: 40px;
+    color: crimson;
+}
+h2 {
+    font-size: 30px;
+    color: tomato;
+}
+img {
+    width: 300px;
+}
+label {
+    display: inline-block;
+    margin: 5px 0;
+    font-weight: 600;
+}
+input, textarea {
+    display: block;
+    padding: 5px;
+    border: 1px solid tomato;
+}
+.active {
+    background-color: tomato;
+    color: white;
+    padding: 5px 20px;
+}
+.nav, .content {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+.form-button {
+    border: none;
+    padding: 10px 20px;
+    background-color: tomato;
+    color: white;
+    font-weight: 600;
+}
+.icone {
+    width: 30px;
+    padding: 5px;
+}

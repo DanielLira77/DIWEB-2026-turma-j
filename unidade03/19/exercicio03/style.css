@@ -1,0 +1,32 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: lightgray;
+}
+p {
+    font-family: Cambria, serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+h1 {
+    font-size: 40px;
+    color: crimson;
+}
+h2 {
+    font-size: 30px;
+    color: tomato;
+}
+.header, .content {
+    width: 80%;
+    background-color: whitesmoke;
+    margin: 10px auto;
+    padding: 5px 20px;
+}
+.nao-ordenada {
+    list-style-type: disc;
+}
+.ordenada {
+    list-style-type: upper-roman;
+}
+.lista-imagem {
+    list-style-image: url('img/favicon.png');
+}
